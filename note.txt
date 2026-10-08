@@ -1,0 +1,49 @@
+SUMMIT-TDR/
+│
+├── index.html
+│
+├── pages/
+│   ├── about.html
+│   ├── programme.html
+│   ├── speakers.html
+│   ├── projects.html
+│   ├── partners.html
+│   ├── registration.html
+│   └── contact.html
+│
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── logos/
+│
+├── css/
+│   ├── style.css
+│   └── responsive.css
+│
+├── js/
+│   └── main.js
+│
+└── admin/
+    └── ...
+
+
+
+    ----------------------------------------------------------
+    Important
+Pour l'instant, le formulaire possède :
+<form action="#" method="POST">
+
+Donc il n'enregistre encore aucune inscription. C'est volontaire.
+La prochaine étape sera de déterminer le véritable fonctionnement :
+Formulaire → validation → base de données → confirmation → éventuellement paiement → espace administration.
+Et surtout, avant de coder le paiement, nous devons reprendre les exigences exactes du TDR SUMMIT-TDR afin de ne pas inventer les frais, les catégories de participants ou les modalités d'inscription.
+
+
+----------------------------------------------------------------------------
+
+
+Attention : les coordonnées, réseaux sociaux et l'adresse affichés ici sont encore des placeholders. Il faudra les remplacer par les informations officielles du SUMMIT-TDR avant la mise en production.
+La partie front-office des pages est maintenant pratiquement complète. La prochaine étape logique sera de travailler sur les assets/images et logos, puis de faire une passe de cohérence sur toutes les pages avant d'attaquer admin/ et le backend.
+
+
+
